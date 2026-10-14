@@ -33,7 +33,7 @@ android {
 publishing {
     publications {
         register<MavenPublication>("release") {
-            groupId = "com.github.HelpBento"
+            groupId = "com.github.BentoSoftware"
             artifactId = "helpbento-android"
             version = "0.1.0"
             afterEvaluate {

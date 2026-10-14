@@ -4,7 +4,7 @@ HelpBento AI chat widget for native Android apps.
 
 This SDK renders **no native chat UI**. `HelpBento.open()` launches a full-screen Activity
 containing a WebView that loads the same `widget.js` that powers the JavaScript SDK and the
-[Capacitor plugin](https://github.com/HelpBento/helpbento-capacitor). One UI source of truth: widget fixes and new features ship
+[Capacitor plugin](https://github.com/BentoSoftware/helpbento-capacitor). One UI source of truth: widget fixes and new features ship
 server-side with no SDK release required.
 
 ## Install
@@ -25,7 +25,7 @@ Then add the dependency:
 
 ```kotlin
 dependencies {
-    implementation("com.github.HelpBento:helpbento-android:0.1.0")
+    implementation("com.github.BentoSoftware:helpbento-android:0.1.0")
 }
 ```
 
